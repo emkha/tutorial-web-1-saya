@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WEB PERTAMA</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="assets/icons/wrench.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">KHAMDAN XX</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#service">SERVICE</a></li>
+					<li><a href="mailto:hamdan2109@gmail.com">CONTACT</a></li>
+				</ul>
+			</nav>
+			<button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+		</header>
+		<div class="container">
+			<div class="intro">
+				<p class="title">Hello Khamdan Here</p>
+				<p class="description">Wild Animal Photographer</p>
+				<img src="assets/foto/185765-fox-animals-wildlife.jpg" alt="khamdan foto 1" class="img-foto"/>
+			</div>
+		</div>
+		<div class="parallax">
+			<div class="tentang">
+				<p class="title">Spesialis foto hewan</p>
+				<p class="description">Ceprat cepret hewan liar</p>
+				<div class="mt-10">
+					<button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>	
+				</div>
+			</div>
+			<div class="container">
+				<div class="card" id="service">
+					<div class="card-item">
+					<img src="assets/icons/24-hours.png" alt="icon 1" class="icon"/>
+						<p class="card-title">Saya suka foto</p>
+						<p class="card-description">Ready kontak 24 jam dan memberikan solusi</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icons/partner.png" alt="icon 2" class="icon"/>
+						<p class="card-title">Ratusan klien </p>
+						<p class="card-description">saya bisa memberikan harga relatif terjangkau</p>
+					</div>
+					<div class="card-item">
+						<img src="assets/icons/rating.png" alt="icon 3" class="icon"/>
+						<p class="card-title">Siap dikontak</p>
+						<p class="card-description">Memberikan fast respons saat dihubungi</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p class="title">&copy; Khamdan Website 2022</p>
+		</footer>
+		
+		<script>
+			function redirInstagram() {
+				window.location.href = "https://instagram.com/khamdan2109"
+			}
+			function redirWhatsapp() {
+				window.location.href = "https://wa.me/+6289696224244"
+			}
+		</script>
+	</body>
+</html>
